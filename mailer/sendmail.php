@@ -53,7 +53,7 @@ try {
         $Email = $row["Email"];
         $mail->addAddress($Email, $Name);     //Add a recipient
     }
-    $mail->addReplyTo('vencent4462323@gmail.com', 'Information');
+    $mail->addReplyTo('a1113358@mail.nuk.edu.tw', 'Information');
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
